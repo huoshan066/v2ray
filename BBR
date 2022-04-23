@@ -1,0 +1,13 @@
+bbr加速：
+
+yum -y install wget    #ContOS 安装 wget
+apt-get install wget   #Debian Ubuntu 安装 wget
+
+yum -y install curl    #ContOS 安装 curl
+apt-get install curl   #Debian Ubuntu 安装 crul
+
+bbr安装脚本：
+echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
+echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
+sysctl -p
+lsmod | grep bbr
