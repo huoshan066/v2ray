@@ -1,6 +1,8 @@
  搭建节点整理
 
-      安装curl/wget等：yum -y install wget    #ContOS 安装 wget
+      安装curl/wget等：   简单：apt-get update && apt-get install wget curl git -y
+             
+	                 yum -y install wget    #ContOS 安装 wget
 
                         apt-get install wget   #Debian Ubuntu 安装 wget
                         
