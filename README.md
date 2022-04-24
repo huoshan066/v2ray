@@ -81,7 +81,7 @@
      https://dash.cloudflare.com/
      在这个网站右侧，点击Workers;新页面点击创建Worker；新页面输入代码
 
-addEventListener(
+     addEventListener(
 	"fetch",event => {
 		let url=new URL(event.request.url);
 		url.hostname="域名";
@@ -90,12 +90,12 @@ addEventListener(
 			fetch(request)
 		)
 	}
-)
+     )
 
     将上面代码内域名改为新申请的网址（Domains后的地址）（不要http://和最后的/）
 
 
-   点击保存并部署      ------    成功没有报警代码后点击发送       -------------    出现400 Bad Requst则成功
+    点击保存并部署      ------    成功没有报警代码后点击发送       -------------    出现400 Bad Requst则成功
 
                -8.      复制网址至V2的伪装域名内，利用better-cloudflare-ip选择优选IP，将这个IP输入到V2的地址中。
 
