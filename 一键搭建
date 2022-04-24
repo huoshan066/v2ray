@@ -3,3 +3,8 @@
 
 V2Ray一键安装代码：bash <(curl -s -L https://git.io/v2ray.sh)
 
+V2Ray一键安装代码：
+bash <(curl -sL https://cdn.jsdelivr.net/gh/Misaka-blog/Xray-script@master/xray.sh)
+
+yum install -y curl  #CentOS
+sudo apt install -y curl  #Ubuntu/Debian
