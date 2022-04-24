@@ -1,6 +1,6 @@
-#v2ray 搭建节点整理
+ 搭建节点整理
 
-更新系统，安装curl/wget等：yum -y install wget    #ContOS 安装 wget
+      安装curl/wget等：yum -y install wget    #ContOS 安装 wget
 
                         apt-get install wget   #Debian Ubuntu 安装 wget
                         
@@ -14,7 +14,7 @@
 
 3.SSL搭建，需要域名，可搭建TSL节点（7）：bash <(curl -sL https://storage.googleapis.com/tiziblog/setup.sh)
 
-4.隐藏IP搭建：-1-1.Debian/Ubuntu系统执行以下命令：
+4.隐藏IP搭建：-1-1.Debian/Ubuntu系统执行以下命令(更新系统，安装curl/socat)：
 
               apt update -y && apt install -y curl && apt install -y socat
 
