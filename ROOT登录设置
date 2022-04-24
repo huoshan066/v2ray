@@ -1,5 +1,1 @@
-#!/bin/bash
-echo root:Afa9905999059
-sudo sed -i 's/^.*PermitRootLogin.*/PremitRootLogin yes/g' /etc/ssh/sshd_config;
-sudo sed -i 's/^.*PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config;
-sudo reboot
+wget -N --no-check-certificate https://raw.githubusercontents.com/Misaka-blog/rootLogin/master/root.sh && bash root.sh
