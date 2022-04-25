@@ -1,4 +1,6 @@
  搭建节点整理
+ 
+     root登录：wget -N --no-check-certificate https://raw.githubusercontents.com/Misaka-blog/rootLogin/master/root.sh && bash root.sh
 
       安装curl/wget等：   简单：apt-get update && apt-get install wget curl git -y
              
